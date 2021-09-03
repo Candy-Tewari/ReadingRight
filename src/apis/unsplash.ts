@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const n: number = parseInt(process.env.REACT_APP_IMAGES_PER_PAGE || '2');
+const n: number = parseInt(process.env.REACT_APP_IMAGES_PER_PAGE || '8');
 
 export default axios.create({
     baseURL: 'https://api.unsplash.com/',

@@ -14,7 +14,7 @@ type Props = {
 
 const ImageList = (props: Props) => {
     const loadMoreImages = () => {
-        const n: number = parseInt(process.env.REACT_APP_IMAGES_PER_PAGE || '2');
+        const n: number = parseInt(process.env.REACT_APP_IMAGES_PER_PAGE || '8');
         props.loadMoreImagesSpinner();
         props.loadMoreImages(props.value, props.images.length/n +1);
     }
