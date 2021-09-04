@@ -18,6 +18,6 @@ body {
 
 @media only screen and (max-width: 750px) {
     body {
-        padding: 50px 50px;
+        padding: 50px 15px;
     }
 }
