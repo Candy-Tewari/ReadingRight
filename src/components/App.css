@@ -1,5 +1,23 @@
 body {
     background-color: #D3D3D385;
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 6em 18em;
+    padding: 50px 18rem
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1000px) {
+    body {
+        padding: 50px 15rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 750px) {
+    body {
+        padding: 50px 5rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        padding: 50px 50px;
+    }
 }
